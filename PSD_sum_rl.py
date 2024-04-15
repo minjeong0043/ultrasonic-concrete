@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from scipy.signal import find_peaks
 
-def FFT_sumYE_rl(data_path):
+def PSD_sum_rl(data_path):
      data = pd.read_csv(data_path, skiprows=20)
      time = data['TIME']
      ch1 = data['CH1']
